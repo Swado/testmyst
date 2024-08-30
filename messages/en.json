@@ -1,0 +1,12 @@
+{
+  "Index": {
+    "title": "Hola world!"
+  },
+  "Packages": {
+    "viewBtn": "View"
+  },
+  "Tests": {
+    "submitBtn": "Submit",
+    "testSections": "Test Sections"
+  }
+}

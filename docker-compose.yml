@@ -1,0 +1,10 @@
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:v1.5.4
+    user: ":"
+    container_name: surrealdb
+    command: start -A --auth -u root -p root --log info --bind 0.0.0.0:8000 file:/database
+    ports:
+      - 8000:8000
+    volumes:
+      - ./database/testmyst:/database
